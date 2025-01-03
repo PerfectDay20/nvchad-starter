@@ -30,6 +30,7 @@ vim.g.clipboard = {
 
 -- change cursor color: https://neovim.io/doc/user/faq.html#faq
 vim.api.nvim_set_hl(0, "Cursor", { fg = "red", bg = "red" })
+
 vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25-Cursor,r-cr-o:hor20"
 
 -- Minimal number of screen lines to keep above and below the cursor.
